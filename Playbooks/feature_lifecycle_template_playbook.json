@@ -1,0 +1,96 @@
+{
+    "channel_name_template": "Feature: \u003cname\u003e",
+    "checklists": [
+        {
+            "items": [
+                {
+                    "title": "Explain what the problem is and why it's important"
+                },
+                {
+                    "title": "Explain proposal for potential solutions"
+                },
+                {
+                    "title": "List out open questions and assumptions"
+                },
+                {
+                    "title": "Set the target release date"
+                }
+            ],
+            "title": "Plan"
+        },
+        {
+            "items": [
+                {
+                    "description": "Expectations for the owner:\n- Responsible for setting and meeting expectation for target dates' +\n- Post weekly status update' +\n- Demo feature at R\u0026D meeting' +\n- Ensure technical quality after release",
+                    "title": "Choose an engineering owner for the feature"
+                },
+                {
+                    "title": "Identify and invite contributors to the feature channel"
+                },
+                {
+                    "description": "Expectations leaving the kickoff meeting:\n- Alignment on the precise problem in addition to rough scope and target\n- Clear next steps and deliverables for each individual",
+                    "title": "Schedule kickoff and recurring check-in meetings"
+                }
+            ],
+            "title": "Kickoff"
+        },
+        {
+            "items": [
+                {
+                    "description": "There are likely many different efforts to achieve alignment here, this checkbox just symbolizes sign-off from contributors.",
+                    "title": "Align on scope, quality, and time."
+                },
+                {
+                    "title": "Breakdown feature milestones and add them to this checklist"
+                }
+            ],
+            "title": "Build"
+        },
+        {
+            "items": [
+                {
+                    "title": "Update documentation and user guides"
+                },
+                {
+                    "title": "Merge all feature and bug PRs to master"
+                },
+                {
+                    "description": "For example:\n- R\u0026D meeting\n- Developer meeting\n- Company wide meeting",
+                    "title": "Demo to the community"
+                },
+                {
+                    "title": "Build telemetry dashboard to measure adoption"
+                },
+                {
+                    "description": "Including but not exclusive to:\n- release blog post\n- one-pager\n- demo video",
+                    "title": "Create launch kit for go-to-market teams"
+                }
+            ],
+            "title": "Ship"
+        },
+        {
+            "items": [
+                {
+                    "title": "Schedule meeting to review adoption metrics and user feedback"
+                },
+                {
+                    "title": "Plan improvements and next iteration"
+                }
+            ],
+            "title": "Follow up"
+        }
+    ],
+    "description": "Customize this playbook to reflect your own feature lifecycle process.",
+    "message_on_join": "Hello and welcome!\n\nThis channel was created as part of the **Feature Lifecycle** playbook and is where conversations related to developing this feature are held. You can customize this message using Markdown so that every new channel member can be welcomed with helpful context and resources.",
+    "message_on_join_enabled": true,
+    "metrics": [],
+    "reminder_message_template": "### Demo\n\u003cInsert_GIF_here\u003e\n\n### Changes since last week\n-\n\n### Risks\n- ",
+    "reminder_timer_default_seconds": 86400,
+    "retrospective_enabled": true,
+    "retrospective_template": "### Start\n-\n\n### Stop\n-\n\n### Keep\n- ",
+    "run_summary_template": "**One-liner**\n\u003cie. Enable users to prescribe a description template so it's consistent for every run and therefore easier to read.\u003e\n\n**Targets release**\n- Code complete: date\n- Customer release: month\n\n**Resources**\n- Jira Epic: \u003clink\u003e\n- UX prototype: \u003clink\u003e\n- Technical design: \u003clink\u003e\n- User docs: \u003clink\u003e",
+    "run_summary_template_enabled": true,
+    "status_update_enabled": true,
+    "title": "Feature Lifecycle Template",
+    "version": 1
+}
