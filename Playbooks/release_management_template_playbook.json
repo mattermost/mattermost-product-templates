@@ -1,0 +1,98 @@
+{
+    "channel_name_template": "Release (vX.Y)",
+    "checklists": [
+        {
+            "items": [
+                {
+                    "title": "Triage and check for pending tickets and PRs to merge"
+                },
+                {
+                    "title": "Start drafting changelog, feature documentation, and marketing materials"
+                },
+                {
+                    "title": "Review and update project dependencies as needed"
+                },
+                {
+                    "title": "QA prepares release testing assignments"
+                },
+                {
+                    "title": "Merge database upgrade"
+                }
+            ],
+            "title": "Prepare code"
+        },
+        {
+            "items": [
+                {
+                    "title": "Cut a Release Candidate (RC-1)"
+                },
+                {
+                    "title": "QA runs smoke tests on the pre-release build"
+                },
+                {
+                    "title": "QA runs automated load tests and upgrade tests on the pre-release build"
+                },
+                {
+                    "title": "Triage and merge regression bug fixes"
+                }
+            ],
+            "title": "Release testing"
+        },
+        {
+            "items": [
+                {
+                    "title": "QA final approves the release"
+                },
+                {
+                    "title": "Cut the final release build and publish"
+                },
+                {
+                    "title": "Deploy changelog, upgrade notes, and feature documentation"
+                },
+                {
+                    "title": "Confirm minimum server requirements are updated in documentation"
+                },
+                {
+                    "title": "Update release download links in relevant docs and webpages"
+                },
+                {
+                    "title": "Publish announcements and marketing"
+                }
+            ],
+            "title": "Prepare release for production"
+        },
+        {
+            "items": [
+                {
+                    "title": "Schedule a release retrospective"
+                },
+                {
+                    "title": "Add dates for the next release to the release calendar and communicate to stakeholders"
+                },
+                {
+                    "title": "Compose release metrics"
+                },
+                {
+                    "title": "Prepare security update communications"
+                },
+                {
+                    "title": "Archive the incident channel and create a new one for the next release"
+                }
+            ],
+            "title": "Post-release"
+        }
+    ],
+    "description": "Customize this playbook to reflect your own product release process.",
+    "message_on_join": "Hello and welcome!\n\nThis channel was created as part of the **Product Release** playbook and is where conversations related to this release are held. You can customize this message using markdown so that every new channel member can be welcomed with helpful context and resources.",
+    "message_on_join_enabled": true,
+    "metrics": [],
+    "reminder_message_template": "### Changes since last update\n-\n\n### Outstanding PRs\n- ",
+    "reminder_timer_default_seconds": 86400,
+    "retrospective_enabled": true,
+    "retrospective_template": "### Start\n-\n\n### Stop\n-\n\n### Keep\n- ",
+    "run_summary_template": "**About**\n- Version number: TBD\n- Target-date: TBD\n\n**Resources**\n- Jira filtered view: [link TBD](#)\n- Blog post draft: [link TBD](#)",
+    "run_summary_template_enabled": true,
+    "status_update_enabled": true,
+    "title": "Release Management Template",
+    "version": 1
+}
