@@ -1,0 +1,95 @@
+{
+    "channel_name_template": "QX 20YY - OKR Review",
+    "checklists": [
+        {
+            "items": [
+                {
+                    "description": "Ensure the board reflects team changes made throughout the quarter, including new leads and product managers.",
+                    "title": "Update the OKR Board to reflect any team changes"
+                },
+                {
+                    "description": "Given potential changes during the quarter, ensure this running playbook has tasks for all relevant teams.",
+                    "title": "Update checklist for new or changed teams"
+                },
+                {
+                    "description": "Assign the various tasks below to the appropriate leads or product managers.",
+                    "title": "Assign tasks"
+                },
+                {
+                    "command": "/echo @channel Heads up to start planning for next quarter OKRs!",
+                    "title": "Remind leads to start planning for next quarter's OKRs"
+                },
+                {
+                    "description": "Pick a date for reviewing OKRs as leads and create an appropriate calendar invite. This meeting would ideally be held in the middle of the month, giving time both for drafting next quarter OKRs and to effect any subsequent changes before sharing with the organization.",
+                    "title": "Schedule an R\u0026D Leads session to review OKRs"
+                }
+            ],
+            "title": "Setup"
+        },
+        {
+            "items": [
+                {
+                    "title": "[Product team A]"
+                },
+                {
+                    "title": "[Product team B]"
+                },
+                {
+                    "title": "[Product team C]"
+                },
+                {
+                    "title": "Server team"
+                },
+                {
+                    "title": "Desktop App"
+                },
+                {
+                    "title": "Mobile App"
+                },
+                {
+                    "title": "QA team"
+                },
+                {
+                    "title": "Growth team"
+                },
+                {
+                    "title": "Release DevOps"
+                },
+                {
+                    "title": "Security team"
+                }
+            ],
+            "title": "Record Presentations"
+        },
+        {
+            "items": [
+                {
+                    "description": "Announce the completion of Engineering OKRs to the rest of the organization in ~announcements.",
+                    "title": "Announce Engineering OKRs"
+                }
+            ],
+            "title": "After OKR Week"
+        },
+        {
+            "items": [
+                {
+                    "command": "/msg @channel If you have any feedback to share about this past quarter's OKRs, please share it here in channel and tag with #retro.",
+                    "description": "Invite channel members to contribute feedback asynchronously and tagged with #retro for easy review.\n\n",
+                    "title": "Collect #retro feedback in-channel and review asynchronously"
+                }
+            ],
+            "title": "Retrospective"
+        }
+    ],
+    "description": "Engineering OKRs is a quarterly ritual that builds a culture of reflection upon past commitments, prompts teams to write down a plan for the upcoming quarter, and serves as a synchronization point for aligning across engineering.\n",
+    "message_on_join": "Welcome to the Quarterly OKR Review! This playbook is started in month three of every quarter to begin the planning process for the upcoming quarter.\n\nYou may find the following resources helpful:\n* [Link to team OKR process doc]\n* [Link to team handbook]",
+    "message_on_join_enabled": true,
+    "metrics": [],
+    "reminder_timer_default_seconds": 604800,
+    "retrospective_enabled": true,
+    "run_summary_template": "Engineering Leads and Product Managers use this run to help communicate plans for the next quarter to all of R\u0026D. Our target audience is engineers, designers, and QA. We want to empower individual contributors to know in advance what their team is planning, as well as have a glimpse into what other teams are doing.\n\n**Quarter**: QX YYYY (_Month_ to _Month_) \n**Target Date**: MMMM DDth, YYYY\n\n[Engineering OKRs Board]\n[Engineering OKRs Channel]",
+    "run_summary_template_enabled": true,
+    "status_update_enabled": true,
+    "title": "OKR Management Template",
+    "version": 1
+}
